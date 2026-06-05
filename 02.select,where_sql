@@ -1,13 +1,10 @@
-SELECT * FROM employee;
+SELECT * FROM student;
 
-SELECT *
-FROM employee
-WHERE age=22;
+SELECT * FROM student
+WHERE sname='Sri';
 
-SELECT *
-FROM employee
-WHERE salary>50000;
+SELECT * FROM student
+WHERE marks > 85;
 
-SELECT *
-FROM employee
-WHERE id IN (1,2);
+SELECT * FROM student
+WHERE course='Java';
