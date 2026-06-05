@@ -1,16 +1,13 @@
-CREATE DATABASE employee;
-
-\c employee
-
-CREATE TABLE employee(
-id SERIAL PRIMARY KEY,
-name VARCHAR(100),
-age INT
+CREATE TABLE student(
+    sid INT PRIMARY KEY,
+    sname VARCHAR(50),
+    course VARCHAR(50),
+    marks INT
 );
 
-INSERT INTO employee(name,age)
+INSERT INTO student
 VALUES
-('san',22),
-('maggie',23);
-
-SELECT * FROM employee;
+(1,'Sri','Python',85),
+(2,'Rani','Java',90),
+(3,'Chinnu','HTML',88),
+(4,'Meher','CSS',92);
